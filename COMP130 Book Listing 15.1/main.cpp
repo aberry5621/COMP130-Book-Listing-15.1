@@ -17,7 +17,7 @@ int main() {
 
     cout << "Gemoetric Objects!\n";
     
-    // create an var of object type
+    // create an var of object data type
     GeometricObject shape;
     shape.setColor("red");
     shape.setFilled(true);
@@ -26,6 +26,17 @@ int main() {
         << " color: " << shape.getColor()
         << " filled: " << (shape.isFilled() ? "true" : "false") << endl;
     
+    // create var circle of Circle data type
+    Circle circle(5);
+    circle.setColor("black");
+    circle.setFilled(false);
+    // say what it is
+    cout << shape.toString() << endl
+    << " color: " << circle.getColor()
+    << " filled: " << (circle.isFilled() ? "true" : "false")
+    << " radius: " << circle.getRadius()
+    << " area: " << circle.getArea()
+    << " perimeter: " << circle.getPerimeter() << endl;
     
     
     return 0;

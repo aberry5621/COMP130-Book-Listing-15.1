@@ -69,10 +69,10 @@
 				E26F2C501DECA3EB008050BC /* main.cpp */,
 				E26F2C571DECA806008050BC /* GeometricObject.h */,
 				E26F2C581DECBBD8008050BC /* DerivedCircle.h */,
+				E26F2C611DECBF41008050BC /* DerivedRectangle.h */,
 				E26F2C591DECBCDB008050BC /* GeometricObject.cpp */,
 				E26F2C5C1DECBD21008050BC /* DerivedCircle.cpp */,
 				E26F2C5F1DECBF0D008050BC /* DerivedRectangle.cpp */,
-				E26F2C611DECBF41008050BC /* DerivedRectangle.h */,
 			);
 			path = "COMP130 Book Listing 15.1";
 			sourceTree = "<group>";
