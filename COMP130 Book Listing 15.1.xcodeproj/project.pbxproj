@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E26F2C4D1DECA3EB008050BC /* COMP130 Book Listing 15.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "COMP130 Book Listing 15.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26F2C501DECA3EB008050BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E26F2C571DECA806008050BC /* GeometricObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometricObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E26F2C501DECA3EB008050BC /* main.cpp */,
+				E26F2C571DECA806008050BC /* GeometricObject.h */,
 			);
 			path = "COMP130 Book Listing 15.1";
 			sourceTree = "<group>";

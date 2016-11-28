@@ -7,9 +7,55 @@
 //
 
 #include <iostream>
+#include "GeometricObject.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+/*
+Implement Geometric Objects
+*/
+
+// geometric object class constructor
+GeometricObject::GeometricObject() {
+    color = "white";
+    filled = false;
+}
+
+// constructor with specified color / fill
+GeometricObject::GeometricObject(const string& color, bool filled) {
+    this->color = color;
+    this->filled = filled;
+}
+
+// getter function returns color as a string
+string GeometricObject::getColor() const {
+    return color;
+}
+
+// setter function sets color
+void GeometricObject::setColor(const string& color) {
+    this->color = color;
+}
+
+// getter function returns state of filled yes / no
+bool GeometricObject::isFilled() const {
+    return filled;
+}
+
+// setter function sets filled to yes / no
+void GeometricObject::setFilled(bool filled) {
+    this->filled = filled;
+}
+
+// gets string version of object
+string GeometricObject::toSrting() const {
+    return "Geometric Object";
+}
+
+int main() {
+
+    cout << "Gemoetric Objects!\n";
+    
+
+    
     return 0;
 }
