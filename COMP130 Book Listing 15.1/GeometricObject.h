@@ -26,7 +26,7 @@ public:
     void setColor(const string& color); // setter function sets color
     bool isFilled() const; // getter function returns state of filled yes / no
     void setFilled(bool filled); // setter function sets filled to yes / no
-    string toSrting() const; // gets string version of object
+    string toString() const; // gets string version of object
 private:
     string color; 
     bool filled;

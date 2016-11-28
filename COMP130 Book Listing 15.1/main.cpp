@@ -6,56 +6,27 @@
 //  Copyright © 2016 COMP130. All rights reserved.
 //
 
-#include <iostream>
 #include "GeometricObject.h"
+#include "DerivedCircle.h"
+#include "DerivedRectangle.h"
+
+#include <iostream>
 using namespace std;
-
-/*
-Implement Geometric Objects
-*/
-
-// geometric object class constructor
-GeometricObject::GeometricObject() {
-    color = "white";
-    filled = false;
-}
-
-// constructor with specified color / fill
-GeometricObject::GeometricObject(const string& color, bool filled) {
-    this->color = color;
-    this->filled = filled;
-}
-
-// getter function returns color as a string
-string GeometricObject::getColor() const {
-    return color;
-}
-
-// setter function sets color
-void GeometricObject::setColor(const string& color) {
-    this->color = color;
-}
-
-// getter function returns state of filled yes / no
-bool GeometricObject::isFilled() const {
-    return filled;
-}
-
-// setter function sets filled to yes / no
-void GeometricObject::setFilled(bool filled) {
-    this->filled = filled;
-}
-
-// gets string version of object
-string GeometricObject::toSrting() const {
-    return "Geometric Object";
-}
 
 int main() {
 
     cout << "Gemoetric Objects!\n";
     
-
+    // create an var of object type
+    GeometricObject shape;
+    shape.setColor("red");
+    shape.setFilled(true);
+    // say what it is
+    cout << shape.toString() << endl
+        << " color: " << shape.getColor()
+        << " filled: " << (shape.isFilled() ? "true" : "false") << endl;
+    
+    
     
     return 0;
 }

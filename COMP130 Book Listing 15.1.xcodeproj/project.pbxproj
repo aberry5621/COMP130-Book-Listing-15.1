@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E26F2C511DECA3EB008050BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2C501DECA3EB008050BC /* main.cpp */; };
+		E26F2C5B1DECBCDB008050BC /* GeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2C591DECBCDB008050BC /* GeometricObject.cpp */; };
+		E26F2C5E1DECBD21008050BC /* DerivedCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2C5C1DECBD21008050BC /* DerivedCircle.cpp */; };
+		E26F2C601DECBF0D008050BC /* DerivedRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F2C5F1DECBF0D008050BC /* DerivedRectangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,11 @@
 		E26F2C4D1DECA3EB008050BC /* COMP130 Book Listing 15.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "COMP130 Book Listing 15.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26F2C501DECA3EB008050BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E26F2C571DECA806008050BC /* GeometricObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometricObject.h; sourceTree = "<group>"; };
+		E26F2C581DECBBD8008050BC /* DerivedCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DerivedCircle.h; sourceTree = "<group>"; };
+		E26F2C591DECBCDB008050BC /* GeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricObject.cpp; sourceTree = "<group>"; };
+		E26F2C5C1DECBD21008050BC /* DerivedCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedCircle.cpp; sourceTree = "<group>"; };
+		E26F2C5F1DECBF0D008050BC /* DerivedRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedRectangle.cpp; sourceTree = "<group>"; };
+		E26F2C611DECBF41008050BC /* DerivedRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DerivedRectangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,11 @@
 			children = (
 				E26F2C501DECA3EB008050BC /* main.cpp */,
 				E26F2C571DECA806008050BC /* GeometricObject.h */,
+				E26F2C581DECBBD8008050BC /* DerivedCircle.h */,
+				E26F2C591DECBCDB008050BC /* GeometricObject.cpp */,
+				E26F2C5C1DECBD21008050BC /* DerivedCircle.cpp */,
+				E26F2C5F1DECBF0D008050BC /* DerivedRectangle.cpp */,
+				E26F2C611DECBF41008050BC /* DerivedRectangle.h */,
 			);
 			path = "COMP130 Book Listing 15.1";
 			sourceTree = "<group>";
@@ -120,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26F2C5B1DECBCDB008050BC /* GeometricObject.cpp in Sources */,
+				E26F2C601DECBF0D008050BC /* DerivedRectangle.cpp in Sources */,
 				E26F2C511DECA3EB008050BC /* main.cpp in Sources */,
+				E26F2C5E1DECBD21008050BC /* DerivedCircle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
